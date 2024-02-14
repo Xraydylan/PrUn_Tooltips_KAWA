@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PrUn KAWA Tooltips
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Adds FIO powered market tooltips to Apex console
 // @author       Manderius (Rynx), inspired by Tim Davis (binarygod, @timthedevguy), modifed by Xray
 // @match        https://apex.prosperousuniverse.com/
@@ -44,8 +44,8 @@ const tooltip_html = `
               <td class="accounting-cell">{Ask.CI1}</td>
               <td class="accounting-cell">{Ask.IC1}</td>
               <td class="accounting-cell">{Ask.NC1}</td>
-              <td>Min</td>
               <td class="accounting-cell">{KAWA.min}</td>
+              <td>Min</td>
             </tr>
             <tr>
               <td>Bid</td>
@@ -53,8 +53,8 @@ const tooltip_html = `
               <td class="accounting-cell">{Buy.CI1}</td>
               <td class="accounting-cell">{Buy.IC1}</td>
               <td class="accounting-cell">{Buy.NC1}</td>
-              <td>Max</td>
               <td class="accounting-cell">{KAWA.max}</td>
+              <td>Max</td>
             </tr>
             <tr>
               <td>Average</td>
@@ -62,8 +62,8 @@ const tooltip_html = `
               <td class="accounting-cell">{Avg.CI1}</td>
               <td class="accounting-cell">{Avg.IC1}</td>
               <td class="accounting-cell">{Avg.NC1}</td>
-              <td>Avg</td>
               <td class="accounting-cell">{KAWA.avg}</td>
+              <td>Avg</td>
             </tr>
             <tr class="top-border-cell">
               <td>Supply</td>
@@ -71,8 +71,8 @@ const tooltip_html = `
               <td class="accounting-cell">{Supply.CI1}</td>
               <td class="accounting-cell">{Supply.IC1}</td>
               <td class="accounting-cell">{Supply.NC1}</td>
-              <td>Prox</td>
               <td class="accounting-cell">{KAWA.proxion}</td>
+              <td>Prox</td>
             </tr>
             <tr>
               <td>Demand</td>
