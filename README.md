@@ -1,7 +1,9 @@
-# PrUn Price Tooltips
+# PrUn Price Tooltips KAWA
 Price tooltips for materials for Prosperous Universe. Based on amazing work from https://github.com/timthedevguy/PrUnTools_Public/, reworked and redesigned.
 
 Tooltips activate on mouse hover in inventories and MAT buffers.
+
+Additionally shows KAWA Inc. prices. (Last updated 2023-Feb-19)
 
 ![Tooltip](tooltip.png)
 
@@ -17,4 +19,4 @@ Tooltips activate on mouse hover in inventories and MAT buffers.
 
 ## Credits
 
-Based on [FIO_Tooltips](https://github.com/timthedevguy/PrUnTools_Public/tree/master/FIO_Tooltips) from [timthedevguy](https://github.com/timthedevguy).
+Based on [FIO_Tooltips](https://github.com/timthedevguy/PrUnTools_Public/tree/master/FIO_Tooltips) from [timthedevguy](https://github.com/timthedevguy) and modified by [Xraydylan](https://github.com/Xraydylan). 
