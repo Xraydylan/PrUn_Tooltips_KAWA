@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PrUn KAWA Tooltips
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Adds FIO powered market tooltips to Apex console
 // @author       Manderius (Rynx), inspired by Tim Davis (binarygod, @timthedevguy), modifed by Xray
 // @match        https://apex.prosperousuniverse.com/

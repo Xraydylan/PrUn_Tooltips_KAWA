@@ -19,4 +19,4 @@ Additionally shows KAWA Inc. prices. (Last updated 2023-Feb-19)
 
 ## Credits
 
-Based on [FIO_Tooltips](https://github.com/timthedevguy/PrUnTools_Public/tree/master/FIO_Tooltips) from [timthedevguy](https://github.com/timthedevguy) and modified by [Xraydylan](https://github.com/Xraydylan). 
+Based on [FIO_Tooltips](https://github.com/timthedevguy/PrUnTools_Public/tree/master/FIO_Tooltips) [V2.1] from [timthedevguy](https://github.com/timthedevguy) and modified by [Xraydylan](https://github.com/Xraydylan). 
