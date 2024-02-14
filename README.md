@@ -5,7 +5,7 @@ Tooltips activate on mouse hover in inventories and MAT buffers.
 
 Only shows KAWA Inc. prices. (Last updated 2023-Feb-19)
 
-![Tooltip](tooltip.png)
+![Tooltip](tooltip_only_kawa.png)
 
 ## Requirements
 * [TamperMonkey](https://www.tampermonkey.net/) - browser plugin for sideloading JS in to current page.
