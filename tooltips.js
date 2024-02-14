@@ -7,8 +7,8 @@
 // @match        https://apex.prosperousuniverse.com/
 // @grant        none
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js
-// @downloadURL  https://raw.githubusercontent.com/Xraydylan/PrUn_Tooltips_KAWA/main/tooltips.js
-// @updateURL    https://raw.githubusercontent.com/Xraydylan/PrUn_Tooltips_KAWA/main/tooltips.js
+// @downloadURL  https://raw.githubusercontent.com/Xraydylan/PrUn_Tooltips_KAWA/Swapped-Order/tooltips.js
+// @updateURL    https://raw.githubusercontent.com/Xraydylan/PrUn_Tooltips_KAWA/Swapped-Order/tooltips.js
 // ==/UserScript==
 
 let $ = jQuery;
