@@ -86,7 +86,7 @@ const tooltip_html = `
           </tbody>
           <tfoot>
             <tr class="bottom-border-cell">
-              <td colspan="5">Updates on {UPDATE}        Kawa updated: {KAWA.UPDATE}</td>
+              <td colspan="5">Updates on {UPDATE} ; Kawa updated: {KAWA.UPDATE}</td>
             </tr>
           </tfoot>
         </table>
