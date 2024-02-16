@@ -172,10 +172,15 @@ function generateTooltipContent(ticker, title) {
         return createElement(tooltip_html_nodata.replace("{TITLE}", title));
     }
 
-    html = html.replace("{KAWA.min}", kawa.min.toLocaleString());
-    html = html.replace("{KAWA.max}", kawa.max.toLocaleString());
-    html = html.replace("{KAWA.avg}", kawa.avg.toLocaleString());
-    html = html.replace("{KAWA.proxion}", kawa.proxion.toLocaleString());
+
+    html = html.replace("{KAWA.min}",
+        kawa ? kawa.min.toLocaleString() : "null");
+    html = html.replace("{KAWA.max}",
+        kawa ? kawa.max.toLocaleString() : "null");
+    html = html.replace("{KAWA.avg}",
+        kawa ? kawa.avg.toLocaleString() : "null");
+    html = html.replace("{KAWA.proxion}",
+        kawa ? kawa.proxion.toLocaleString() : "null");
 
     // Filter should return all 4 markets worth of data, populate our tooltip
     market_data.forEach(function (ticker_data) {
